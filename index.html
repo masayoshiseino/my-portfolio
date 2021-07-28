@@ -1,15 +1,94 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>ポートフォリオ</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <h1>ポートフォリオサイト</h1>
     <script src="main.js"></script>
+  </head>
+
+  <body>
+    <header id="header" class="wrapper">
+      <h1>もじゃもじゃの自己紹介サイト!</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#hobby">Hobby</a></li>
+          <li><a href="#omikuji">Omikuji</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <img src="img/20210727_170711000_iOS.jpg" alt="picture.jpg" />
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="section-title">About</h2>
+        <div class="content">
+          <img src="img/profileimg.jpg" alt="テキストテキストテキスト" />
+          <div class="text">
+            <h3 class="content-title">MASAYOSHI SEINO</h3>
+            <p>
+              はじめまして！立教大学３年の情野正義です。あだ名では、もじゃもじゃとかアフロって呼ばれてます！私事ですが、最近夢を見ることが多くて、夢占いとか調べてたら占いにハマってしまいました（笑）なので、一回何千円もする占い師に見てもらったり、神社巡りでおみくじをひきまくるのがマイブームです🔮　そこで❕今回はjavascriptの機能を使って、おみくじアプリを作ったので是非皆さんも試してみてください！！！
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="url" class="wrapper">
+        <ul>
+          <li><a href="https://www.rikkyo.ac.jp/">学校</a></li>
+
+          <li>
+            <a href="https://www.instagram.com/gerbera__12/?hl=ja">instagram</a>
+          </li>
+          <li>
+            <a
+              href="https://apps.apple.com/jp/app/%E3%83%90%E3%83%88%E3%83%AB%E3%83%A2%E3%83%B3-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E3%83%90%E3%83%88%E3%83%AB%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id1459402952"
+              >ハマってるゲーム</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section id="omikuji" class="wrapper">
+        <h2 class="section-title">Omikuji</h2>
+        <p>あなたの今日の運勢は・・・</p>
+        <p>push!!!!!</p>
+        <p2>👇</p2>
+        <div id="btn">引く❕</div>
+        <script src="main.js"></script>
+      </section>
+
+      <section id="hobby" class="wrapper">
+        <h2 class="section-title">Hobby</h2>
+        <ul>
+          <li>
+            <h3 class="content-title">バー巡り</h3>
+            <img src="img/20210727_143105880_iOS 1.jpg" />
+
+            <p>ビールとウイスキーが大好き🍻</p>
+          </li>
+          <li>
+            <h3 class="content-title">ファッション</h3>
+            <img src="img/20210718_073021000_iOS 1.jpg" />
+
+            <p>ukロックが好きなのでそれっぽい格好してます（笑）</p>
+          </li>
+          <li>
+            <h3 class="content-title">ディズニー</h3>
+            <img src="img/20200203_143221538_iOS 1.jpg" />
+
+            <p>ディズニープラスに入会してるくらいファンです🐭</p>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
